@@ -1,0 +1,18 @@
+$gulf-light-blue: rgb(201, 223, 236);
+$gulf-orange: rgb(255, 103, 32);
+$gulf-font:'DM Serif Display', serif;
+$gulf-dark-grey: rgb(46, 43, 8);
+$gulf-dark-blue: rgb(6, 19, 87);
+
+html {
+  scroll-behavior:smooth;
+  background:$gulf-light-blue;
+  color: $gulf-orange;
+  font-family: $gulf-font;
+  border-color: $gulf-dark-blue !important;
+};
+
+body {
+  padding-left: 15%;
+  padding-right: 15%;
+}

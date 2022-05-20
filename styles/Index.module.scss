@@ -1,0 +1,33 @@
+$gulf-light-blue: rgb(201, 223, 236);
+$gulf-orange: rgb(255, 103, 32);
+$gulf-font:'DM Serif Display', serif;
+$gulf-dark-grey: rgb(46, 43, 8);
+$gulf-dark-blue: rgb(6, 19, 87);
+
+.main {
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+  // background-color: #fff;
+  margin-top: 25px;
+};
+
+.introArticle, .introAside {
+  // background-color: $gulf-light-blue;
+}
+
+.introArticle {
+
+};
+
+.introAside {
+  
+}
+
+.imgCont {
+  height: 50px;
+  width: 50px;
+}

@@ -4,7 +4,10 @@
   "description": "Andy's portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Ouandyy/Portfolio/issues"
   },
-  "homepage": "https://github.com/Ouandyy/Portfolio#readme"
+  "homepage": "https://github.com/Ouandyy/Portfolio#readme",
+  "dependencies": {
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.9"
+  }
 }

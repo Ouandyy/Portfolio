@@ -1,0 +1,29 @@
+$gulf-light-blue: rgb(201, 223, 236);
+$gulf-orange: rgb(255, 103, 32);
+$gulf-font:'DM Serif Display', serif;
+$gulf-dark-grey: rgb(46, 43, 8);
+$gulf-dark-blue: rgb(6, 19, 87);
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  // padding: 0px 50px 0px 50px;
+  // color: grey;
+  border-bottom: solid 1px $gulf-dark-blue;
+  font-size: 20px;
+  ul {
+    align-self: center; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: inherit;
+  }
+}
